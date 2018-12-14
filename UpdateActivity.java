@@ -18,12 +18,12 @@ public class UpdateActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update);
-        updateNama = findViewById(R.id.update_nama_pelanggan);
-        updateAlamat = findViewById(R.id.updateAlamat);
-        updateKota = findViewById(R.id.updateKota);
-        updateHP = findViewById(R.id.update_no_hp);
-        btnUpdate = findViewById(R.id.btn_update);
+        setContentView(com.example.harsayamani.datakaryawan.R.layout.activity_update);
+        updateNama = findViewById(com.example.harsayamani.datakaryawan.R.id.update_nama_pelanggan);
+        updateAlamat = findViewById(com.example.harsayamani.datakaryawan.R.id.updateAlamat);
+        updateKota = findViewById(com.example.harsayamani.datakaryawan.R.id.updateKota);
+        updateHP = findViewById(com.example.harsayamani.datakaryawan.R.id.update_no_hp);
+        btnUpdate = findViewById(com.example.harsayamani.datakaryawan.R.id.btn_update);
         databaseHelper = new DatabaseHelper(this);
 
         try{

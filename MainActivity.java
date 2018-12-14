@@ -22,19 +22,19 @@ public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.example.harsayamani.datakaryawan.R.layout.activity_main);
         //membuat objek database
         databaseHelper = new DatabaseHelper(this);
         //inisialisasi id field xml
-        nama = findViewById(R.id.update_nama_pelanggan);
-        alamat = findViewById(R.id.updateAlamat);
-        kota = findViewById(R.id.kota);
-        btnInsert = findViewById(R.id.btn_insert);
-        hp = findViewById(R.id.no_hp);
-        btnUpdate = findViewById(R.id.btn_update);
-        btn_cari = findViewById(R.id.btn_cari);
-        cari_data = findViewById(R.id.cari_data);
-        tampil_data = findViewById(R.id.tampil_data);
+        nama = findViewById(com.example.harsayamani.datakaryawan.R.id.update_nama_pelanggan);
+        alamat = findViewById(com.example.harsayamani.datakaryawan.R.id.updateAlamat);
+        kota = findViewById(com.example.harsayamani.datakaryawan.R.id.kota);
+        btnInsert = findViewById(com.example.harsayamani.datakaryawan.R.id.btn_insert);
+        hp = findViewById(com.example.harsayamani.datakaryawan.R.id.no_hp);
+        btnUpdate = findViewById(com.example.harsayamani.datakaryawan.R.id.btn_update);
+        btn_cari = findViewById(com.example.harsayamani.datakaryawan.R.id.btn_cari);
+        cari_data = findViewById(com.example.harsayamani.datakaryawan.R.id.cari_data);
+        tampil_data = findViewById(com.example.harsayamani.datakaryawan.R.id.tampil_data);
 
         //validasi jika terjadi error
         try{

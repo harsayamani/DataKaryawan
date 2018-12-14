@@ -14,12 +14,12 @@ public class DetailData extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //inisialisasi field
-        setContentView(R.layout.activity_detail_data);
-        dataNama = findViewById(R.id.detailNama);
-        dataAlamat = findViewById(R.id.detailAlamat);
-        dataKota = findViewById(R.id.detailKota);
-        dataHP = findViewById(R.id.detailHP);
-        btnUpdate = findViewById(R.id.btnUpdate);
+        setContentView(com.example.harsayamani.datakaryawan.R.layout.activity_detail_data);
+        dataNama = findViewById(com.example.harsayamani.datakaryawan.R.id.detailNama);
+        dataAlamat = findViewById(com.example.harsayamani.datakaryawan.R.id.detailAlamat);
+        dataKota = findViewById(com.example.harsayamani.datakaryawan.R.id.detailKota);
+        dataHP = findViewById(com.example.harsayamani.datakaryawan.R.id.detailHP);
+        btnUpdate = findViewById(com.example.harsayamani.datakaryawan.R.id.btnUpdate);
 
         dataDetail();
         update();

@@ -7,14 +7,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.SimpleCursorAdapter;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -28,9 +24,9 @@ public class ListData extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_data);
+        setContentView(com.example.harsayamani.datakaryawan.R.layout.activity_list_data);
         databaseHelper = new DatabaseHelper(getBaseContext());
-        listData = findViewById(R.id.listData);
+        listData = findViewById(com.example.harsayamani.datakaryawan.R.id.listData);
         list_data = new ArrayList<>();
         listData.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list_data));
 //exception hendling
