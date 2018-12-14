@@ -13,7 +13,6 @@ public class DetailData extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //inisialisasi field
         setContentView(com.example.harsayamani.datakaryawan.R.layout.activity_detail_data);
         dataNama = findViewById(com.example.harsayamani.datakaryawan.R.id.detailNama);
         dataAlamat = findViewById(com.example.harsayamani.datakaryawan.R.id.detailAlamat);
